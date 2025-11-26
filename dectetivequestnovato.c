@@ -40,11 +40,11 @@ void explorarSalas(Sala *atual)
 
     if (escolha == 'E' && atual->esquerda != NULL)
     {
-      atual = atual->esquerda; // vai para esquerda
+      atual = atual->esquerda; 
     }
     else if (escolha == 'D' && atual->direita != NULL)
     {
-      atual = atual->direita; // vai para direita
+      atual = atual->direita; 
     }
     else if (escolha == 'S')
     {
@@ -68,7 +68,7 @@ int main() {
     hall->direita->esquerda = criarSala("Cozinha");
     hall->direita->direita = criarSala("Jardim dos Fundos");
 
-    printf("=== Detective Quest: Mapa da Mansão ===\n");
+    printf("MAPA DA MANSÃO: DECTETIVE QUEST\n");
     explorarSalas(hall);
 
     // Liberação simples (sem recursão)
