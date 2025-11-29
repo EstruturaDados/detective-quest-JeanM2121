@@ -80,6 +80,6 @@ int main() {
     free(hall->direita);
     free(hall);
 
-    printf("\nObrigado por jogar Detective Quest!\n");
+    printf("\nFIM DE JOGO!\n");
     return 0;
 }
